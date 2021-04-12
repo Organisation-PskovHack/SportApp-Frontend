@@ -1,0 +1,42 @@
+body{
+	background: url("../images/login/login_back.png") top no-repeat;
+}
+.login{
+}
+.login__logo{
+	display: flex;
+	justify-content: center;
+	padding: 165px 0 15px; 
+}
+.login__title{
+	margin: 0 auto;
+	padding-bottom: 50px; 
+	width: 220px;
+	color: #5A738F;
+	text-align: center;
+	font-size: 35px;
+	font-weight: 800;
+	font-family: "Montserrat", sans-serif;
+	line-height: 42px;
+}
+.login__form{
+
+}
+.login__form button{
+	width: 301px;
+	height: 60px;
+	border: none;
+	border-radius: 20px;
+	color: #fff;
+	font-size: 30px;
+	margin: 0 50px 35px;
+	padding-top: 5px;
+}
+.login__form-log{
+	background-color: #C1CBD6;
+	box-shadow: 0 8px 0 #A5B1BD;
+}
+.login__form-reg{
+	background-color: #FD7785;
+		box-shadow: 0 8px 0 #C25561;
+}
