@@ -1,0 +1,68 @@
+.main{
+	margin: 0 30px;
+	max-width: 600px;
+	min-width: 350px;
+	width: 90%;
+}
+.raiting__toolbar{
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0;
+	max-width: 540px;
+	width: 90%;
+}
+
+.raiting__toolbar-item{
+	background: #EAEDF9;
+	border-radius: 10px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 16px;
+	color: #5A738F;
+	text-align: center;
+	/*width: 100px;*/
+	width: 25%;
+	height: 25px;
+}
+
+.raiting__member{
+	display: flex;
+	flex-direction: column;
+	max-width: 540px;
+	width: 90%;
+}
+
+.raiting__member-item{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.raiting__member-name{
+	position: relative;
+	/*left: -10%;*/
+	font-family: Open Sans;
+	width: 50%;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 16px;
+	display: flex;
+	align-items: center;
+	color: #5A738F;
+}
+
+.raiting__member-hours{
+	width: 15%;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 16px;
+	display: flex;
+	align-items: center;
+	color: #FD7785;
+}

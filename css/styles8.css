@@ -1,0 +1,146 @@
+.section{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 0 30px;
+	max-width: 600px;
+	width: 95%;
+}
+.section__description-text{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+	color: #5A738F;
+	margin: 0 30px 30px 0;
+}
+
+.section__description-title{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	color: #5A738F;
+	margin: 30px 0 25px;
+}
+
+.section__trainer-title,
+.section__schedule-title{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	color: #5A738F;
+	margin-bottom: 15px;
+}
+
+.section__trainer-item{
+	display: flex;
+	/*align-items: center;*/
+	justify-content: space-around;
+	width: 90%;
+	height: 130px;
+	max-width: 550px;
+	min-width: 300px;
+	max-height: 200px;
+	background: #EAEDF9;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.trainer__item-info{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 15px 0 15px 20px;
+	width: 60%;
+}
+
+.item__info-name{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 18px;
+	color: #5A738F;
+}
+
+.item__info-desc,
+.item__info-tel,
+.item__info-email{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+	display: flex;
+	align-items: center;
+	color: #5A738F;
+}
+
+.trainer__item-image{
+	width: 100px;
+	height: 100px;
+	margin: 15px 0;
+}
+
+.section__schedule-item{
+	display: flex;
+	max-width: 540px;
+	width: 95%;
+	height: 100%;
+	text-align: left;
+	background: rgba(253, 119, 133, 0.2);
+}
+
+.section_add{
+	width: 229px;
+	height: 49px;
+	margin: 0 auto;
+	background: #FD7785;
+	border-radius: 15px;
+	border: none;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+
+.schedule__item-weekDay{
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+}
+
+.schedule__item-time{
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+}
+.schedule__item-place{
+	display: flex;
+	align-items: center;
+	width: 30%;
+}
+
+.schedule__item-weekDay,
+.schedule__item-time,
+.schedule__item-place{
+	display: flex;
+	justify-content: center;
+}
+
+.item__weekDay-item,
+.item__time-item,
+.schedule__item-place{
+	margin: 20px 15px;
+}
+
+.schedule__item-time{
+	border: 1px solid #FFFFFF;
+}
