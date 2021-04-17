@@ -63,6 +63,11 @@
 	padding: 12px 30px;
 }
 
+.empty{
+	/*height: 50px;*/
+	border-bottom: 1px solid rgba(90, 115, 143, 0.5);
+}
+
 .open__menu{
 	/*display: none;*/
 	position: absolute;
@@ -78,7 +83,7 @@
 
 .menu{
 	position: absolute;
-	top: 100px;
+	top: 54px;
 }
 
 .menu__link{
@@ -116,8 +121,7 @@
 
 .menu .menu__link:last-child{
 	position: relative;
-	bottom: 0;
-	background-color: #000;
+	bottom: 50%;
 }
 .menu__active{
 	position: absolute;
