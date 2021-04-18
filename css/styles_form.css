@@ -1,18 +1,66 @@
-.login_button a{
+body{
+	background: url("../images/login/login_back.png") no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+}
+
+.login{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.login__header{
+	display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.login__header-title{
+	display: flex;
+    justify-content: center;
+	flex-grow: 1;
+	color: rgba(90, 115, 143, 0.6);
+	font-size: 25px;
+	font-weight: 600;
+	font-family: "Montserrat", sans-serif;
+	line-height: 42px;
+}
+
+.login__header-arrow{
+	display: block;
+	position: relative;
+	width: 13px;
+	height: 13px;
+	top: 12px;
+	left: 15px;
+}
+
+.login__form-text{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+
+.login__button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #FD7785;
 	text-decoration: none;
 	width: 301px;
 	height: 60px;
-	border: none;
 	border-radius: 20px;
-	text-align: center;
-	color: #fff;
-	font-size: 30px;
 	margin: 0 50px 35px;
-	/*padding-bottom: 15px;*/
 }
 
 .login__form input{
-	border-color: #5A738F;
+	border: 3px solid #5A738F;
 	width: 310px;
 	height: 50px;
 	font-family: Montserrat;
@@ -20,7 +68,8 @@
 	font-weight: normal;
 	font-size: 20px;
 	line-height: 24px;
-	margin: 15px 0; 
+	color: #5A738F;
+	margin: 15px 0 30px;
 }
 
 .login__form{
@@ -32,31 +81,17 @@
 }
 
 .login__label{
+	max-width: 310px;
 	color: #5A738F;
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 25px;
 	line-height: 30px;
-	margin-left: 30px; 
+	width: 100%;
+	text-align: left;
 }
+
 .login__logo{
 	padding-bottom: 30px;
-}
-.login_button{
-	text-decoration: none;
-	width: 301px;
-	height: 60px;
-	border: none;
-	border-radius: 20px;
-	text-align: center;
-	color: #fff;
-	font-size: 30px;
-	margin: 0 50px 35px;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 25px;
-	line-height: 30px;
-	text-align: center;
 }

@@ -4,7 +4,7 @@ body, div, button{
 }
 .container{
 	margin: 0 auto;
-	min-width: 350px;
+	min-width: 320px;
 	max-width: 600px;
 }
 
@@ -14,7 +14,4 @@ body, div, button{
 	justify-content: center;
 	max-width: 600px;
 	min-width: 350px;
-/*	display: flex;
-	flex-direction: column;
-	align-items: center;*/
 }

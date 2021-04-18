@@ -1,4 +1,4 @@
-buttonNext = document.querySelector(".login_button");
+buttonNext = document.querySelector(".login__button");
 buttonNext.addEventListener("click", function getFormInputs()
 {
 	const form = document.forms[0].querySelectorAll("input");
